@@ -9,7 +9,7 @@ class Opdscli < Formula
   depends_on "uv" => :build
 
   def install
-    system "uv", "sync", "--no-dev"
+    system "uv", "sync"
     system "uv", "run", "pyinstaller", "--noconfirm", "opdscli.spec"
     bin.install "dist/opdscli"
   end
