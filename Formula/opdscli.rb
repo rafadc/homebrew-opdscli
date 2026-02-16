@@ -1,8 +1,8 @@
 class Opdscli < Formula
   desc "CLI tool to interact with OPDS 1.x ebook catalogs"
   homepage "https://github.com/rafadc/opdscli"
-  url "https://github.com/rafadc/opdscli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "442f57886551bb79f107c705be61196f72c5cc10f7ae3b5b13a9305d0db8b5c5"
+  url "https://github.com/rafadc/opdscli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "95caf5de3cbdc581cf148e404987e7d24498abfa892ef14f0f26218451b6d6ea"
   license "MIT"
 
   depends_on "python@3.12" => :build
@@ -15,6 +15,6 @@ class Opdscli < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output("#{bin}/opdscli --version")
+    assert_match "0.1.1", shell_output("#{bin}/opdscli --version")
   end
 end
