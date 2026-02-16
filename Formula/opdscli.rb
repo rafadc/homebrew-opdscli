@@ -2,7 +2,7 @@ class Opdscli < Formula
   desc "CLI tool to interact with OPDS 1.x ebook catalogs"
   homepage "https://github.com/rafadc/opdscli"
   url "https://github.com/rafadc/opdscli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 ""  # Fill in after release
+  sha256 "442f57886551bb79f107c705be61196f72c5cc10f7ae3b5b13a9305d0db8b5c5"  # Fill in after release
   license "MIT"
 
   depends_on "python@3.12"
